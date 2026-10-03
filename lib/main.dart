@@ -58,7 +58,7 @@ class AICreatorApp extends StatelessWidget {
 class _Splash extends StatelessWidget {
   const _Splash();
   @override
-  Widget build(BuildContext context) => const Scaffold(
+  Widget build(BuildContext context) => Scaffold(
     body: Center(
       child: Column(mainAxisSize: MainAxisSize.min, children: [
         ClipRRect(borderRadius: BorderRadius.circular(24), child: Image.asset('assets_ai_icon.png', width: 88, height: 88)),
